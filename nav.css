@@ -1,0 +1,32 @@
+nav {
+    background-color: rgba(232, 74, 184, 0.6); 
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    margin: 10px 20px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+}
+
+nav li a {
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: block;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+nav li a:hover {
+    color: #ffeb3b;
+    transform: translateY(-2px);
+}

@@ -1,0 +1,16 @@
+h1 {
+    font-family: 'Times New Roman', serif;
+    color: #bb0ae7;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 40px 0;
+    text-align: center;
+}
+body {
+    background-image: url("background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
